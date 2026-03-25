@@ -10,5 +10,6 @@ import { Payment, PaymentSchema } from './schemas/payment.schema';
   ],
   controllers: [PaymentsController],
   providers: [PaymentsService],
+  exports: [PaymentsService],
 })
 export class PaymentsModule {}
